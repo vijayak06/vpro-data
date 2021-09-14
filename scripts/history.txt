@@ -1,0 +1,144 @@
+    1  clear
+    2  uptime
+    3  echo $?
+    4  uptimerwewer
+    5  echo $?
+    6  free -m
+    7  echo $?
+    8  free -ajyfasutdfausf
+    9  echo $?
+   10  clear
+   11  INFO="My Name is Imran."
+   12  echo $INFO
+   13  INFO='My Name is Imran.'
+   14  clear
+   15  SKILL='DevOps'
+   16  echo $DevOps
+   17  echo $SKILL
+   18  echo "I have got $SKILL skill."
+   19  echo 'I have got $SKILL skill.'
+   20  VIRUS='Covid19'
+   21  echo "This organization has lost $9 million due to $VIRUS"
+   22  echo 'This organization has lost $9 million due to $VIRUS'
+   23  echo "This organization has lost \$9 million due to $VIRUS"
+   24  echo "This organization has lost '$9' million due to $VIRUS"
+   25  clear
+   26  w
+   27  who
+   28  loggedUsers=`who`
+   29  echo $loggedUsers
+   30  uptime
+   31  UP=$(uptime)
+   32  echo $UP
+   33  clear
+   34  echo "System Free RAM size is $FREE_RAM mb"
+   35  free -m 
+   36  free -m | grep Mem
+   37  free -m | grep Mem | awk '{print $4}'
+   38  FREE_RAM=$(free -m | grep Mem | awk '{print $4}')
+   39  echo "System Free RAM size is $FREE_RAM mb"
+   40  clear
+   41  echo $FREE_RAM
+   42  cd /opt/
+   43  ls
+   44  mkdir scripts
+   45  cd scripts/
+   46  ls
+   47  vim
+   48  yum install vim -y
+   49  clear
+   50  SKILL="DevOps"
+   51  echo $SKILL
+   52  vim print_vars.sh
+   53  chmod +x print_vars.sh 
+   54  ./print_vars.sh 
+   55  export SKILL
+   56  ./print_vars.sh 
+   57  exit
+   58  echo $SKILL
+   59  clear
+   60  whoami
+   61  pwd
+   62  ls
+   63  ls -a
+   64  vim .bashrc 
+   65  echo $SKILL
+   66  source .bashrc 
+   67  echo $SKILL
+   68  exit
+   69  clear
+   70  vim /etc/profile
+   71  echo $SKILL
+   72  ls -a
+   73  vim .bashrc 
+   74  source .bashrc 
+   75  cl
+   76  ls -a
+   77  cd /opt/scripts/
+   78  ls
+   79  vim user_input.sh
+   80  chmod +x user_input.sh 
+   81  ./user_input.sh 
+   82  vim user_input.sh
+   83  ./user_input.sh 
+   84  vim /etc/hostname 
+   85  hostname scriptbox
+   86  vim /etc/hostname 
+   87  ./user_input.sh 
+   88  clear
+   89  ls
+   90  ls /vagrant/
+   91  cd /vagrant/
+   92  ls
+   93  yum install zip unzip -y
+   94  clear
+   95  ls
+   96  unzip scripts_07092021.zip 
+   97  ls
+   98  cp -r scripts/* /opt/scripts/
+   99  cd /opt/scripts/
+  100  clear
+  101  ls
+  102  vim 5_ArgsWebsetup.sh 
+  103  ls
+  104  vim if1.sh
+  105  chmod +x if1.sh 
+  106  ./if1.sh 
+  107  cp if1.sh if2.sh 
+  108  vim if2.sh 
+  109  ./if2.sh 
+  110  clear
+  111  ls
+  112  vim osdetect.sh
+  113  chmod +x osdetect.sh 
+  114  ./osdetect.sh 
+  115  cat /etc/redhat-release 
+  116  vim osdetect.sh
+  117  ls
+  118  cp if2.sh if3.sh
+  119  vim if3.sh
+  120  ./if3.sh 
+  121  vim if3.sh
+  122  ./if3.sh 
+  123  clear
+  124  ls
+  125  vim for1.sh
+  126  chmod +x for1.sh 
+  127  sleep 1
+  128  sleep 2
+  129  sleep 
+  130  sleep 3
+  131  ./for1.sh 
+  132  cp for1.sh for2.sh
+  133  vim for2.sh 
+  134  ./for2.sh 
+  135  vim for2.sh 
+  136  ./for2.sh 
+  137  vim for2.sh 
+  138  clear
+  139  ./for2.sh 
+  140  vim for2.sh 
+  141  clear
+  142  ./for2.sh 
+  143  vim for2.sh 
+  144  history > history.txt
